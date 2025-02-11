@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styel.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <nav ><ul class="listt"><li><a href="home.html">homme</a></li></ul></nav>
+    <div style="justify-content: center; justify-items: center;">
+    <h1 class="labe">Contact Us</h1>
+    <form action="send_email.php" method="post">
+        <label for="name" class="labe">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email"class="labe">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject" class="labe">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+
+        <label for="message"class="labe">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Send" class="submit">
+    </form>
+    </div>
+</body>
+</html>
